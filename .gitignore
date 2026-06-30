@@ -11,6 +11,27 @@ node_modules/
 dist/
 build/
 
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python coverage and packaging
+.coverage
+htmlcov/
+*.egg-info/
+pip-wheel-metadata/
+
 # Environment files
 .env
 .env.*
